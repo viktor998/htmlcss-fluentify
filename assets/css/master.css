@@ -5,6 +5,7 @@
     box-sizing: border-box;
     
 }
+
 /* AZZERAMENTO */
 
 .container{
@@ -13,7 +14,7 @@
     
 }
 
-.row{
+.row:after{
     content: "";
     display: table;
     clear: both;
@@ -23,6 +24,10 @@
 
 [class^="col-"]{
     float: left;
+}
+
+.col-100{
+    width: 100%;
 }
 
 .col-50{
@@ -59,7 +64,7 @@ ul li a{
     text-transform: uppercase;
     font-size: 12px;
     
-    color: aliceblue;
+    color: rgb(255, 255, 255);
 }
 
 .position-right{
@@ -71,15 +76,32 @@ ul li a{
  }
 
 
-p{
+ .col-50.pt-1 p{
     font-size: 45px;
     color: white;
+}
+
+.bg-grey p{
+    text-align: center;
+}
+
+.bg-grey :first-child{
+    padding-top: 40px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.bg-grey :last-child{
+    padding-top: 10px;
+    padding-bottom: 40px;
+    color: rgb(128, 128, 128);
 }
 
 /* NAV */
 
 
 
+/* BACKGROUND-COLOR*/
 
 header{
     background-color: blue;
@@ -87,15 +109,18 @@ header{
     
 }
 
-/* IMAGE-JUMBO */
-
 .bg-jumbo img{
     height: 300px;
     position: relative;
     top: 4px;
 }
 
-/* IMAGE-JUMBO */
+.bg-grey{
+    width: 100%;
+    background-color: rgba(189, 189, 189, 0.685);
+}
+
+/* BACKGROUND-COLOR*/
 
 /* BUTTONS */
 
