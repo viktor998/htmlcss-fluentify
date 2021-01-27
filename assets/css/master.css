@@ -3,12 +3,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 /* AZZERAMENTO */
 
 .container{
     width: 80%;
     margin: 0 auto;
+    
 }
 
 .row{
@@ -61,7 +63,7 @@ ul li a{
 }
 
 .position-right{
-   margin-left: 70px;
+   float: right;
 }
 
 .position-left{
@@ -81,6 +83,7 @@ p{
 
 header{
     background-color: blue;
+    overflow: hidden;
     
 }
 
