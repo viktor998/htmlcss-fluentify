@@ -9,11 +9,7 @@
 
 /* AZZERAMENTO */
 
-.container{
-    width: 80%;
-    margin: 0 auto;
-    
-}
+
 
 .row:after{
     content: "";
@@ -38,6 +34,7 @@
 
 .col-33{
     width: calc(100% /3);
+    
 }
 
 /* COLONNE */
@@ -87,6 +84,11 @@ ul li a{
     color: white;
 }
 
+
+/* NAV */
+
+/* MAIN */
+/* 3COLLUMN-SECTION */
 .bg-grey p{
     text-align: center;
 }
@@ -103,7 +105,37 @@ ul li a{
     color: rgb(128, 128, 128);
 }
 
-/* NAV */
+.img_txt-box p{
+    text-align: center;  
+    font-size: 24px;
+    font-weight: bold;  
+    color: green;
+}
+
+.line{
+    width: 60px;
+    position: relative;
+    margin-top: 20px;
+    left: 50%;
+    transform: translate(-50%,50%);
+    height: 20px;
+    border-top: 1px solid rgba(143, 142, 142, 0.678);
+}
+
+p.txt-33{
+    text-align: center;
+}
+/* 3COLLUMN-SECTION */
+
+/* 2COLLUMN-SECTION */
+
+.bold{
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+/* 2COLLUMN-SECTION */
+/* MAIN */
 
 
 
@@ -123,7 +155,7 @@ header{
 
 .bg-grey{
     width: 100%;
-    background-color: rgba(189, 189, 189, 0.685);
+    background-color: rgba(189, 189, 189, 0.562);
 }
 
 .img_txt-box{
@@ -132,18 +164,12 @@ header{
 
 }
 
-.img_txt-box p{
-    text-align: center;  
-    font-size: 22px;
-    font-weight: bold;  
-    color: green;
-}
+
 
 .img_txt-box img{
     padding-left: 70px;
-
-    width:  300px;
-    height: 300px;
+    width:  250px;
+    height: 250px;
     background-position: center;
     background-size: cover;
 }
@@ -175,6 +201,20 @@ header{
 
 .pt-1{
     padding-top: 3em;
+}
+
+.pb-1{
+    padding-bottom: 3em;
+}
+pl-1{
+    padding-left: 4em;
+}
+
+.container{
+    width: 80%;
+    max-width: 1349px;
+    margin: 0 auto;
+    
 }
 
 /* UTILITY */
