@@ -139,7 +139,8 @@ p.txt-33{
 /* FOOTER */
 
 footer{
-    background-color: rgba(189, 189, 189, 0.562);;
+    background-color: rgba(189, 189, 189, 0.562);
+
 }
 
 form{
@@ -168,6 +169,12 @@ label{
 
 form ul{
     display: inline-block;
+}
+
+.fixed{
+    position: fixed;
+    bottom: 0;
+    right: 200px;
 }
 
 /* FOOTER */
