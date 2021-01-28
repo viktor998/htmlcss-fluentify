@@ -88,7 +88,6 @@ ul li a{
 /* NAV */
 
 /* MAIN */
-/* 3COLLUMN-SECTION */
 .bg-grey p{
     text-align: center;
 }
@@ -105,11 +104,13 @@ ul li a{
     color: rgb(128, 128, 128);
 }
 
+/* 3COLLUMN-SECTION */
+
 .img_txt-box p{
     text-align: center;  
     font-size: 24px;
     font-weight: bold;  
-    color: green;
+    color:  rgb(124, 187, 2);
 }
 
 .line{
@@ -139,7 +140,7 @@ p.txt-33{
 /* FOOTER */
 
 footer{
-    background-color: rgba(189, 189, 189, 0.562);
+    background-color: rgb(211, 211, 211);
 
 }
 
@@ -184,7 +185,7 @@ form ul{
 /* BACKGROUND*/
 
 header{
-    background-color: blue;
+    background-color:rgb(12,50, 90);
     overflow: hidden;
     
 }
@@ -197,7 +198,7 @@ header{
 
 .bg-grey{
     width: 100%;
-    background-color: rgba(189, 189, 189, 0.562);
+    background-color: rgb(211, 211, 211);
 }
 
 .img_txt-box{
@@ -233,7 +234,7 @@ header{
 }
 
 .btn.no-border.green a{
-    background-color: green;
+    background-color: rgb(124, 187, 2);
 }
 
 
