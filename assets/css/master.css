@@ -129,13 +129,48 @@ p.txt-33{
 
 /* 2COLLUMN-SECTION */
 
-.bold{
-    font-size: 28px;
-    font-weight: bolder;
-}
+
+
+
 
 /* 2COLLUMN-SECTION */
 /* MAIN */
+
+/* FOOTER */
+
+footer{
+    background-color: rgba(189, 189, 189, 0.562);;
+}
+
+form{
+    float: right;
+    line-height: 180px;
+    
+
+}
+
+label{
+    padding-right: 20px;
+}
+
+.select {
+    background-color: transparent;
+    border: none;
+    padding: 0 1em 0 0;
+    border-bottom: 1px solid black;
+}
+
+.select:after {
+    content: '/02C5';
+    display: inline-block;
+    justify-self: end;
+}
+
+form ul{
+    display: inline-block;
+}
+
+/* FOOTER */
 
 
 
@@ -206,8 +241,10 @@ header{
 .pb-1{
     padding-bottom: 3em;
 }
-pl-1{
-    padding-left: 4em;
+
+.w-50 {
+    margin: 0 auto;
+    width: 80%;
 }
 
 .container{
@@ -215,6 +252,11 @@ pl-1{
     max-width: 1349px;
     margin: 0 auto;
     
+}
+
+.bold{
+    font-size: 28px;
+    font-weight: bolder;
 }
 
 /* UTILITY */
